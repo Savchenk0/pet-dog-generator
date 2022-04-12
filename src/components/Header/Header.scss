@@ -1,0 +1,50 @@
+.navbar{    
+    padding: 0;
+    &__logo{
+        width: 55px;
+        height: 55px;
+    }
+    &__list{
+        margin: 0;
+        padding: 0;
+        margin-right: 150px;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        &__link{
+            font-size: 25px;
+            font-family: sans-serif;
+            text-decoration: none;
+            color: white;
+            transition: 0.4s;
+        }
+        &__link:hover{
+            color: rgb(233, 177, 10);
+        }
+        &__item{
+            margin-right: 30px;
+        }
+        &__item:last-child{
+            margin-right: 0px;
+        }
+    }
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    padding: 10px;
+    margin-bottom: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.log-btn{
+    text-decoration: none;
+    color:white;
+}
+.log-btn:hover{
+    color: rgb(233, 177, 10);
+
+}

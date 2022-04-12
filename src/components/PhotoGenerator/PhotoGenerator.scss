@@ -1,0 +1,33 @@
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 0 auto;
+    padding:15px 10px 25px;
+    border-radius: 10px;
+    border: 10px black;
+    border-style: solid;
+    height:575px;
+    width:610px;
+}
+.content-image{
+        max-width:580px;
+        max-height:450px;
+        border: 10px black;
+        border-style: solid;
+}
+.buttons-wrapper{
+    margin-top: 20px;
+}
+.content-save-btn{
+    margin-left: 20px;
+}
+.image-wrapper{
+    height: 450px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
