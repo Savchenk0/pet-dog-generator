@@ -77,7 +77,7 @@ const LoginForm = function({onClick}){
             <button type="submit" disabled={isSubmitting} className="login-form__submit" >
              Log in!
             </button>
-            <p >Already have an account? <Link to='/signin'>Sign in</Link></p>
+            <p >Don't have an account yet? <Link to='/signin'>Sign in</Link></p>
             <p ><Link to='/'>Home</Link></p>
           </form>
         )}
